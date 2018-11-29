@@ -1,0 +1,112 @@
+#cover2{
+
+}
+/*#cover2-title{
+	font-size: 80px;
+	margin: 80px;
+	margin-left: 65px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+#cover2-info{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+#cover2-text{
+	font-size: 40px;
+	width: 350px;
+	margin-left: 25px;
+	text-align: center;
+	margin-bottom: 150px;
+}*/
+#content2,#club-info,#where,#entry-box{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+#papier-text2{
+	width: 350px;
+	align-items: center;
+}
+#club-info-text,#map-text,#sign-up-text{
+	margin-top: 20px;
+}
+#club-info-della{
+	border: 10px solid white;
+	margin-bottom: 15px;
+}
+.due1{
+	font-weight: bold;
+}
+#dues-links{
+	background-color: #0D1039;
+	border: 1px solid black;
+	font-size: 25px;
+	text-align: center;
+	color: #FFB560;
+	padding: 20px;
+	padding-top: 15px;
+	padding-right: 15px;
+	margin-right: 110px;
+}
+#dues{
+	margin-left: 110px;
+	font-size: 25px;
+}
+
+#sign-up{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin-top: 65px;
+}
+#sign-up-text{
+	margin-right: 50px;
+}
+#sign-up-box{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #0D1039;
+	width: 35vw;
+	margin-left: 50px;
+	padding-top: 8px;
+	padding-bottom: 10px;
+}
+#name-entry,#email-entry{
+	display: flex;
+	flex-direction: column;
+}
+#entry-box{
+	justify-content:flex-start;
+	align-items: flex-start;
+}
+#entry-button{
+	background-color: #FFB560;
+	color: #3D6191;
+	height: 3vh;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+	border: 2px solid black;
+	padding-right: 3vw;
+	padding-left: 3vw;
+	font-size: 17.5px;
+}
+#name-name,#email-name{
+	color: #FFB560;
+	font-size: 20px;
+}
+#name-box,#email-box{
+	background-color: white;
+	height:3vh;
+	width: 32vw;
+	font-color: #FFB560;
+}
+.submit-button:hover {
+	cursor: pointer;
+}

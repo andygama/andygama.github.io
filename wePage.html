@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<link href="assets/css/we.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+	<script type="text/javascript" src="assets/scripts/script.js"></script>
+	
+	
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins|Raleway" rel="stylesheet">
+
+	<link rel="icon" href="favicon.ico">
+	<title>Cal Archery</title>
+
+	<style>
+      /* Set the size of the div element that contains the map */
+      #map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 90vw;  /* The width is the width of the web page */
+       }
+    </style>
+</head>
+
+<body>
+	<nav>
+		<div id="logo"> <a href="index.html">
+			<img src="assets/img/CalArchLogo.PNG" height="40"></a>
+		</div>
+		<div id="nav-links" >
+			<div class="nav-element">
+				<a href="wePage.html">Who are We? </a>
+			</div>
+			<div class="nav-element">
+				<a href="team.html">Competitive Team </a>
+			</div>
+			<div class="nav-element"> 
+				<a href="ascent.html">Ascent and Decal </a>
+			</div>
+			<div class="nav-element">
+				<a href="leadership.html">Leadership </a>
+			</div>
+			<div class="nav-element">
+				<a href="members.html">Team Members </a>
+			</div>
+		</div>
+	</nav>
+
+	<div class="cover"> 	
+		<img src="assets/img/weCover.PNG" width="100%" id="cover2">
+		<!-- <div id="cover2-info" class="cover-text">
+			<div id="cover2-title">
+				We Are Cal<br>Archery
+			</div>
+			<div id="cover2-text">
+				One of the largest
+ 				<br>Collegiate Archery
+ 				<br>Clubs in the Nation
+			</div>
+		</div> -->
+	</div>
+
+	<div id="content2">
+		<div id="club-info">
+			<div id="word-row">
+				<div class="paper">
+					<img src="assets/img/label3.PNG" width="225" id="papier-club">
+					<div class="paper-text" id="papier-text2">
+						Club Hours
+					</div>
+				</div>
+				<div class="word-text" id="club-info-text">
+					<p>
+						We welcome archers of all levels! Come to a club  <br>
+						practice to learn how to shoot, free shoot, work on <br>
+						technique, or simply hang out with friends! Club <br>
+						practice hours are open hours, so you may come <br>
+						and go as you need.
+
+					</p>
+				</div>
+			</div>
+			<div id="word-row">
+				<div id="club-info-img">
+					<img src="assets/img/bonds.JPG" width="500" id="club-info-della">
+				</div>
+				<div class="word-text" id="club-info-text">
+					<p>
+						Cal Archery Is a Sports Club run through<br>
+						Rec Sports. In order to become a member <br>
+						you must have an active RSF membership <br>
+						with the University. Our club also requires<br>
+						the payment of club dues and signing up<br>
+						onto the Cal Archery roster.
+
+					</p>
+				</div>
+			</div>
+			<div id="word-row">
+				<div id="dues-links" class="word-text">
+					Sign up for club roster here<br>
+					Pay club dues here<br>
+				</div>
+				<div class="word-text" id="dues">
+					<table id="dues-table">
+						<tr class="dues1">
+							<th class="word-text due due1">Club Dues</th>
+							<th class="word-text due"></th>
+						</tr>
+						<tr class="dues1">
+							<th class="word-text due">Semester <br> Annual</th>
+							<th class="word-text due">$65 <br> $110</th>
+						</tr >
+					</table>
+				</div>
+			</div>
+			
+		</div>
+
+		<div id="where">
+			<div id="word-row">
+				<div class="paper">
+					<img src="assets/img/label2.PNG" width="250" id="papier-club">
+					<div class="paper-text" id="papier-text2">
+						Where do <br> We Shoot? 
+					</div>
+				</div>
+				<div class="word-text" id="map-text">
+					<p>
+						We conduct all of our Practices at the Clark Kerr softball <br>
+						field currently. Starting Spring 2019 we will be relocating<br>
+ 						to the Golden Bear Soccer field (also known as Golden Bear Track,<br>
+ 						which is located behind the golden Bear Rec Center in the Clark <br>
+ 						Kerr Residential Campus. Both fields are shown in the map below.<br>
+
+					</p>
+				</div>
+			</div>
+			<div id="map"></div>
+  				  <script>
+     				 var map;
+     				 function initMap() {
+       				 var archeryField = {lat: 37.865618, lng: -122.24792};
+  						var newArcheryField = {lat: 37.865017, lng: -122.246096};
+  						var map = new google.maps.Map(
+   						   document.getElementById('map'), {zoom: 16, center: archeryField});
+  // The marker, positioned at archery fields
+
+  						var marker = new google.maps.Marker({position: archeryField, map: map});
+  						var marker2 = new google.maps.Marker({position: newArcheryField, map: map});
+        			};
+      				
+    				</script>
+   				 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDncs9raSQU3fQABYJpKlr7YMD7HqJ2IEE&callback=initMap"
+    			async defer></script>
+			
+
+		<div id="sign-up" class="word-text">
+			<div id="sign-up-text">
+				If you're interested in getting updates<br>
+				about the club, feel free to sign up for <br>
+				our mailing list to get important updates <br>
+				and events!
+			</div>
+			<div id="sign-up-box">
+				<div id="entry-box">
+					<!-- <div id="name-entry"> -->
+						<form>
+						  Name:<br>
+						  <input type="text" name="firstname" id="name-box"><br>
+						  Email:<br>
+						  <input type="text" name="email" id="email-box">
+						</form>
+						<!-- <div id="name-name">Name</div>
+						<div id="name-box"></div> -->
+					
+					<!-- <div id="email-entry">
+						<div id="email-name">Email</div>
+						<div id="email-box"></div>
+					</div> -->
+					<input type="submit" value="Join Mailing List" id="entry-button" class="submit-button">
+				</div>
+				<!-- <div id="entry-button">
+					<div></div>
+					<div id="email-button">Join the Mailing List</div>
+				</div>
+ -->			</div>
+		</div>
+	</div>
+
+	
+
+	<footer>
+
+		<div id="contact-info">
+			<div id="emails">
+				<p id="Questions" class="word-text">
+					Still Have Questions?
+				</p>
+				<p id="contact" class="word-text">
+					Contact us!
+				</p>
+				<div id="all-emails" class="word-text">
+					Club: california.archery@gmail.com <br>
+					Team: archery.captains@gmail.com<br>
+					Ascent: california.ascent@gmail.com<br>
+					Decal: calarcherydecal@gmail.com<br>
+					
+				</div>
+			</div>
+
+			<div id="social-links">
+				<div id="social-reach" class="word-text">
+					Follow us on social media!
+				</div>
+				<div id="icons">
+					<a href="https://www.facebook.com/calarchery/"><img src="assets/img/facebook.JPG" width="75" height="75" class="icon-img"></a>
+					<a href="https://www.instagram.com/calarchery/"><img src="assets/img/instagram.PNG" width="75" height="75" class="icon-img"></a>
+					<img src="assets/img/snapchat.PNG" width="75" height="75" class="icon-img">
+				</div>
+			</div>
+		</div>
+
+		<div id="blue-bar">
+		</div>
+
+	</footer>
+</body>
+
+</html>

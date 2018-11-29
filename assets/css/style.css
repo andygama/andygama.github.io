@@ -1,0 +1,327 @@
+html,body{ margin:0; padding:0; box-sizing:border-box; }
+
+body{
+    /* Gradient with stops */
+    background: linear-gradient(-225deg, #FFFFFF 0%, #FFF547 70%, #8977FF 100%);
+}
+@font-face {
+  font-family: 'UA Sather';
+  src: url("UASather-Regular.otf") format("otf"),
+}
+.paper-text,.cover-text {
+	font-family: 'UA Sather';
+	color: #FFC52F;
+}
+.word-text,.nav-element,#schedule-notes {
+	font-family: 'Raleway';
+	color: #3D6191;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 0;
+	margin-bottom: 2px;
+	background-color: white;
+	position: fixed;
+	width: 100%;
+}
+#logo{
+	display: flex;
+	padding-left: 25px;
+}
+#nav-links{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin-right: 30px;
+	text-decoration: none;
+}
+a {
+	text-decoration: none;
+}
+a:hover{
+	cursor: pointer;
+	-webkit-transition: width 2s; /* Safari */
+    transition: width 10s;
+}
+.nav-element{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 10px;
+	margin-left: 2.5px;
+	margin-right: 2.5px;
+}
+
+.cover{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+#cover1{
+	widows: 100vw;
+	position: absolute;
+	z-index: -1;
+}
+#cover1-dets {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+#cover1-img {
+	display: flex;
+	width: 25vw;
+	margin-left: 8px;
+	margin-top: 65px;
+	z-index: 1;
+	margin-bottom: 80px;
+}
+#join-button{
+	background-color: #FFC52F;
+	color: #3A3335;
+	font-size: 45px;
+	border-style: solid;
+	border-collapse: #3A3335;
+	border-width: 5px;
+	padding: 5px;
+	margin-bottom: 180px;
+}
+#join-button:hover{
+	cursor: pointer;
+}
+
+
+#content1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+#club-hours{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#word-row{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.paper{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	text-align: center;
+	justify-content: space-between;
+}
+#papier-text{
+	font-size: 45px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#club-hours-text,#club-info-text,#map-text,#sign-up-text,#team-requirements-text,#join-team-text,#ascent-text,#decal-text,#decal-link,#team-requirements-text{
+	text-align: center;
+	font-size: 20px;
+	margin-left: 5vw;
+	line-height: 1.6;
+}
+#schedule,#tournaments,#scores,#tryout-dates{
+	font-size: 20px;
+}
+.titled{
+	font-size: 22.5px;
+}
+th,tr {
+	padding: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	font-weight: normal;
+}
+#tableSchedule,#tryout-date-table {
+	border-top: 1px solid black;
+	margin-bottom: 20px;
+
+}
+caption{
+	font-weight:bold;
+	margin-bottom: 10px;
+}
+#schedule-notes{
+	font-size: 25px;
+	margin-bottom: 25px;
+	font-weight: bold;
+}
+
+
+
+#events{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#word-row1{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+#papier-text2{
+	font-size: 45px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#events-text{
+	text-align: center;
+	font-size: 20px;
+	margin-left: 5vw;
+	line-height: 1.6;
+}
+#tourn-table, #dues-table ,#scores-table{
+  border-collapse: collapse;
+  border-style: hidden;
+  margin-bottom: 30px;
+}
+#tourn-table .tourn1,.tourn{
+  border: 2px solid black;
+}
+#dues-table .dues1,.due{
+  border: 2px solid black;
+}
+#scores-table .mqs1,.mqs{
+  border: 2px solid black;
+}
+.tourn, .divi{
+	font-weight: bold;
+}
+.titled{
+	font-weight: bolder;
+}
+#learn-to-shoot{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#word-row2{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+#papier-text3{
+	font-size: 45px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#learn-text{
+	text-align: center;
+	font-size: 20px;
+	margin-left: 5vw;
+	line-height: 1.6;
+}
+#learn-to-shoot-images{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.learn{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.learnpic{
+	margin: 40px;
+	border: 10px solid white;
+	margin-bottom: 20px;
+}
+.learn-text{
+	font-size: 20px;
+}
+
+footer{
+	display: flex;
+	flex-direction: column;
+	margin-top: 80px;
+	width: 100%;
+}
+#contact-info{
+	display: flex;
+	flex-direction: row;
+	background-color: #FAFFD8;
+	justify-content: space-around;
+	align-items: center;
+}
+#blue-bar {
+	display: flex;
+	widows: 100vw;
+	background-color: #0D1039;
+	height: 35px;
+}
+#emails,#social-links{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+#Questions{
+	font-weight: bolder;
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+#contact,#social-reach{
+	font-weight: bold;
+	font-size: 20px;
+	margin-top:5px;
+	margin-bottom: 10px;
+}
+#all-emails{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin-bottom: 20px;
+	line-height: 1.6;
+}
+#icons{
+	display: flex;
+	flex-direction: row;
+}
+.icon-img{
+	margin:15px;
+	border-radius: 50%;
+}
+
+hr {
+width: 60%;
+height: 0px;
+margin-left: auto;
+margin-right: auto;
+background-color:#3D6191;
+border: 1px solid #3D6191;
+margin-top: 50px;
+margin-bottom:50px;
+}
+
+.nav-element:hover {
+    cursor: pointer;
+    background-color: #FFF3F3;
+}
+#logo:hover {
+    cursor: pointer;
+}
+
+.papier,.papier-club{
+	box-shadow: 6px 10px 8px 0 grey;
+}

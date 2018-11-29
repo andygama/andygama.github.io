@@ -1,0 +1,85 @@
+#cover5{
+}
+/*#cover5-title{
+	font-size: 80px;
+	margin: 80px;
+	margin-left: 70px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+#cover5-info{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+#cover5-text{
+	font-size: 40px;
+	width: 350px;
+	margin-left: 5px;
+	text-align: center;
+	margin-bottom: 150px;
+}
+*/
+#content5{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-direction: center;
+}
+#team-members{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+#papier-text2{
+	width: 350px;
+	align-items: center
+	}
+#team-mates{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.team-member{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.team-member-img{
+	border-radius: 50%;
+	margin-right: 5vw;
+	box-shadow: 6px 6px 6px 0 grey;
+}
+.team-member-title{
+	font-family: 'UA Sather';
+	font-size: 45px;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.team-member-name-normal{
+	font-size: 35px;
+}
+.team-member-info{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.division{
+	font-size: 25px;
+	margin-left: 95px;
+}
+.team-member-descrip,.team-member-ABBA-info,.team-member-hobby{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+}
+.ABBA-text,.hobby-text{
+	font-weight: bold;
+}
